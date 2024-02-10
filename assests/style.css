@@ -1,0 +1,160 @@
+ body{
+    overflow-x: hidden;
+ }
+ a.navbar-brand{
+        font-family: 'Secular One', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: #3a5a40;
+    }
+@media (min-width: 576px){
+
+    section.main-page{
+        background-image: url(/images/main.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+        
+    }
+}
+@media (max-width: 767px){
+    section.main-page{
+        background-image: url(/images/main.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+    }
+}
+a{
+    text-decoration: none;
+}
+.center {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+.banner{
+    background-color: #656d4a;
+}
+.banner-heading{
+    color: #a4ac86;
+}
+.heading-2-color{
+color: #235023;
+margin-top: 5rem;
+}
+.des-1-color{
+    color: #90a955;
+    margin: 5rem 0;
+}
+.featurette-divider{
+    margin: 5rem 0;
+}
+.card-deck{
+    display: flex;
+    flex-wrap: flex;
+    align-items: stretch;
+}
+footer{
+    background-color: lightgray;
+}
+.nc{
+    color: #3a5a40;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nc:hover{
+    color: #84a98c;
+}
+.main-text{
+    font-family: 'Outfit', sans-serif;
+    color: #235023;
+}
+.mh{
+    font-family: 'Russo One', sans-serif;
+}
+.mt{
+    color: #414833;
+    font-family: 'Outfit', sans-serif;
+}
+.card-title{
+    color: #588157;
+}
+#about{
+    font-family: 'Outfit', sans-serif;
+    color: #235023;
+}
+.btn {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  
+  .btn:hover {
+    color:#344e41;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: #ffffff;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .btn:hover::before {
+    width: 160%;
+  }
+  button.goTopBtn {
+    margin : 0 !important ;
+    padding : 0 !important ;
+    height : 0;
+    width : 0;
+    overflow : hidden;
+    visibility : hidden;
+    position : fixed;
+    cursor : pointer;
+    right : 50px;
+    bottom : 75px;
+    font-size : 0;
+    z-index : 99;
+    }
+    button.goTopBtn::before, button.goTopBtn::after {
+    line-height : 0;
+    height : 0;
+    margin : 18px auto 0;
+    width : 0;
+    visibility : hidden;
+    }
+    button.goTopBtn::after, button.goTopBtn::before {
+    visibility : visible;
+    }
+    button.goTopBtn {
+    font-size : 25px;
+    right : 25px;
+    bottom : 50px;
+    height : 50px;
+    width : 50px;
+    visibility : visible;
+border: none;
+    color: white;
+background: none;
+    }
+
